@@ -5,6 +5,7 @@ def fibonacci_sequence(start_sequence, length):
     sequence = start_sequence[:length]
     while len(sequence) < length:
         sequence.append(sequence[-1] + sequence[-2])
+        
 
     return sequence
 
